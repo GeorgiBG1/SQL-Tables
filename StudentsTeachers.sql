@@ -126,3 +126,4 @@ SELECT [FirstName] as 'Първо име',[LastName],[Gender] as 'Пол',[Id] FROM People
 
 SELECT * FROM Countries
 SELECT * FROM People
+SELECT * FROM Speciality
