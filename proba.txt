@@ -1,6 +1,3 @@
 proba nova promqna
-<<<<<<< HEAD
-Nama opiti izboshto
-=======
 Opit12345S
->>>>>>> b5dbd24f58e09792d10f1781114761389cdc8ba9
+
