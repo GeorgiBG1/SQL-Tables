@@ -22,7 +22,7 @@ FOREIGN KEY REFERENCES Speciality(Id)
 )
 GO
 CREATE TABLE Teachers (
-[Id] INT PRIMARY KEY IDENTITY,                                     
+[Id] UNIQUEIDENTIFIER PRIMARY KEY default NEWID(),                                    
 [FirstName] VARCHAR(16) NOT NULL,
 [LastName] VARCHAR(16) NOT NULL,
 [Gender] BIT,
@@ -34,7 +34,7 @@ FOREIGN KEY REFERENCES Classes(Id)
 GO
 CREATE TABLE Students 
 (
-[Id] INT PRIMARY KEY IDENTITY,
+[Id] UNIQUEIDENTIFIER PRIMARY KEY default NEWID(),
 [FirstName] VARCHAR(16) NOT NULL,
 [SurName] VARCHAR(16),
 [LastName] VARCHAR(16) NOT NULL,
